@@ -28,11 +28,13 @@ function App() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        <div className='App-Matching'>
         <Row>
-        <Col xs>검사 결과</Col>
-        <Col xs={{ order: 12 }}>매칭 상대</Col>
-        <Col xs={{ order: 12 }}>매칭 상대2</Col>
+        <Col className='App-Matching-effct'xs>검사 결과</Col>
+        <Col className='App-Matching-someone1' xs={{ order: 12 }}>매칭 상대</Col>
+        <Col className='App-Matching-someone1' xs={{ order: 12 }}>매칭 상대2</Col>
       </Row>
+      </div>
     </div>
   );
 }
